@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.card-conatiner{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-header{
+    margin-top: 30px;
+}
+.pattern-1 img{
+    width: 300px;
+    position: absolute;
+    top: -5%;
+    right: 0;
+}
+.heading h1{
+    max-width: 900px;
+    font-size: 80px;
+    margin-top: 100px;
+}
+.sub-text p{
+    max-width: 800px;
+    margin-top: 50px;
+}
+.hero-img img{
+    max-width: 220px;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    z-index: 1;
+
+
+}
+.secttion-bottom{
+    background-color:#191826;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 250px;
+
+}
+.card{
+    background-color: #FA7453;
+    max-width: 800px;
+    height: 400px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: none;
+    padding: 50px;
+    position:absolute;
+    top: 30%;
+    right: 15%;
+    
+}
+.card-heading{
+    margin-bottom: 20px;
+
+}
+.card-text{
+    max-width:200px ;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.price-section{
+    display:flex;
+    margin-bottom: 20px;
+}
+.price p{
+    font-size: 48px;
+}
+.month{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.btn-1 button{
+    padding: 8px 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #191826;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.btn-1 img{
+    margin-right: 5px;
+}
+.btn-2 button{
+    padding: 8px 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #191826;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.footer{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.footer-text{
+    max-width: 400px;
+}
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+}
+.insta,.twitter{
+    margin-left: 20px;
+}
